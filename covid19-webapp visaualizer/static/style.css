@@ -1,0 +1,45 @@
+body {
+    background: whitesmoke;
+    width: 800px;
+    margin: auto;
+}
+
+h1 {
+    color: maroon;
+    text-align: center;
+}
+
+p {
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.dataframe {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+    border-left: none ;
+    border-right: none ;
+    margin: 0 auto;
+}
+
+.dataframe thead th{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black; 
+    padding: 5px;
+    border-left: none ;
+    border-right: none ;
+    color: white;
+    background-color: maroon;
+}
+.dataframe td {
+    border-bottom: 1px solid black;
+    padding: 5px;
+    border-left: none ;
+    border-right: none ;
+}
+
+.dataframe tr:nth-child(odd) {background-color: gainsboro}
+.dataframe tr:nth-child(even) {background-color: lavender}

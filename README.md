@@ -1,4 +1,4 @@
-# covid19-Alberta-webapp
+# Covid19 Data Visualization Tool 
 Author: Benjamin Lokanc
 ## What is this?
 

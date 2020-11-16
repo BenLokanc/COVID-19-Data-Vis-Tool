@@ -3,6 +3,7 @@ from sqlalchemy import create_engine
 from sqlalchemy import inspect
 import csv
 from collections import Counter
+import matplotlib
 import matplotlib.pyplot as plt 
 from matplotlib.ticker import FormatStrFormatter
 from matplotlib.figure import Figure
@@ -30,6 +31,7 @@ df.to_sql(name='alberta', con=engine, if_exists='replace')
 engine.dispose()
 
 #Creating the web-app
+matplotlib.use('Agg') #For the create_report module
 app = Flask(__name__)
 @app.route('/')
 def plot_covid():
@@ -37,7 +39,6 @@ def plot_covid():
         name = 'alberta'
         engine = create_engine(db_uri, echo = False)
         df = pd.read_sql_table(table_name= name, con= engine)
-        print(df.head())
         engine.dispose()
 
         #First figure, subplots of total cases and daily cases 
@@ -49,9 +50,6 @@ def plot_covid():
         #Compute total and smoothed daily cases
         df['total_cases'] = df.daily_cases.cumsum()
         df['smooth_daily_cases'] = df.daily_cases.rolling(3).mean()
-        #Checking what we have
-        df.info()
-        print(df.head())
         #Figure1: Seaborn plots for daily cases and total cases
         sns.barplot(x='date', y='daily_cases', data=df, ax=ax1,
             palette=sns.color_palette("Set2", 2))

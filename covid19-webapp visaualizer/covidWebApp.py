@@ -12,7 +12,6 @@ import seaborn as sns
 import datetime
 import io
 
-
 with open ('covid19dataexport.csv') as covid:
     covidreader = csv.DictReader(covid)
     datelist = []
@@ -70,7 +69,7 @@ def plot_covid():
         # - smoothed daily_cases (y-axis)
         # as used in: https://www.youtube.com/watch?v=54XLXg4fYsc
         fig2 = plt.figure()
-        fig2.suptitle("Smooth daily cases vs total cases from March 6th to May 14th")
+        fig2.suptitle("Trajectory of COVID-19 cases from March 6th to May 14th")
         FigureCanvas(fig2)
         x_str='total_cases'
         y_str='smooth_daily_cases'

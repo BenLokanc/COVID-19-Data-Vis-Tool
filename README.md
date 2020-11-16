@@ -23,3 +23,17 @@ There are two major figures produced to visualize the data.
 The first figure is two subplots, the first being the number of daily cases reported, the second being total lifetime cases.
 
 The second figure is a log-log plot of daily cases versus total cases. This is used as a measure to see how well the province is combating the virus. This is further described in the YouTube video by minute physics, [How To Tell If We're Beating COVID-19](https://youtu.be/54XLXg4fYsc).
+
+## Web Application 
+### Web Application Design
+
+The style sheet and template were designed by myself using CSS and HTML respectively. 
+
+### Running the Web Appplication 
+
+When downloaded, navigate to the directory this project is stored in and run '$python3 covidWebApp.py'. Open the browser of your choice and type 'localhost:5000', press enter and the web application will display. 
+
+### Screenshots of the Web Application 
+
+
+

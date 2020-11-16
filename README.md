@@ -33,7 +33,10 @@ The style sheet and template were designed by myself using CSS and HTML respecti
 
 When downloaded, navigate to the directory this project is stored in and run '$python3 covidWebApp.py'. Open the browser of your choice and type 'localhost:5000', press enter and the web application will display. 
 
-### Screenshots of the Web Application 
+### Screenshots of the Web Application
+Example of the web application using data from March 6th to May 14th
+![](subplotscreensot.png)
+![](loglogscreenshot.png)
 
 
 

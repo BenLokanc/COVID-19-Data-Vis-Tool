@@ -35,8 +35,8 @@ When downloaded, navigate to the directory this project is stored in and run '$p
 
 ### Screenshots of the Web Application
 Example of the web application using data from March 6th to May 14th
-![](subplotscreensot.png)
-![](loglogscreenshot.png)
+![](subplotscreenshot.png)
+![](loglogscreensot.png)
 
 
 

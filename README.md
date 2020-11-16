@@ -20,4 +20,4 @@ There are two major figures produced to visualize the data.
 
 The first figure is two subplots, the first being the number of daily cases reported, the second being total lifetime cases.
 
-The seconed figure is a log-log plot of daily cases versus total cases. This is used as a measure to see how well the province is combating the virus. This is further described in the YouTube video by minute physics https://youtu.be/54XLXg4fYsc.
+The seconed figure is a log-log plot of daily cases versus total cases. This is used as a measure to see how well the province is combating the virus. This is further described in the YouTube video by minute physics, [How To Tell If We're Beating COVID-19](https://youtu.be/54XLXg4fYsc).

@@ -20,9 +20,9 @@ Using sqlalchemy, the dataframe was stored in an sql database.
 
 There are two major figures produced to visualize the data.
 
-The first figure is two subplots, the first being the number of daily cases reported, the second being total lifetime cases.
+The first figure is two subplots, the first being the number of daily cases reported, the second being total lifetime cases. The first plot is done by ploting 'daily_cases' against 'date' and the second plot is done by plotting the rolling sum of 'daily_cases' against 'date'. 
 
-The second figure is a log-log plot of daily cases versus total cases. This is used as a measure to see how well the province is combating the virus. This is further described in the YouTube video by minute physics, [How To Tell If We're Beating COVID-19](https://youtu.be/54XLXg4fYsc).
+The second figure is a log-log plot of daily cases against the total cases. This is used as a measure to see how well the province is combating the virus. This is further described in the YouTube video by minute physics, [How To Tell If We're Beating COVID-19](https://youtu.be/54XLXg4fYsc).
 
 ## Web Application 
 ### Web Application Design
